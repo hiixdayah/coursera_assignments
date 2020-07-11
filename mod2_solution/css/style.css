@@ -124,9 +124,9 @@ h1 {
 
 @media (max-width: 767px) {
   .col1 {
-    width: calc(100%- 30px);
-    text-overflow: ellipsis;
-    margin-left: 30px;
+    width: calc(100%- 10px);
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
   }
 }
