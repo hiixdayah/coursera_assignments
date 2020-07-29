@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Assignment-3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+            
+        <div class="navbar-header">
+              <div class="navbar-brand">
+                <h1>Food, LLC<h1>
+              </div>
+
+            <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#collapsable-nav"
+            aria-expanded="false"
+          >
+            <!--# represents the selection of this id-->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+          <li class="visible-xs">
+            <a>
+              <span class="glyphicon glyphicon-heart"></span>
+              <!--these classes bring in an icon font. An icon font is a vector based image that behaves in the same way that the font would behave(you could size it,colorize it) except it's usually some vector based shape. glyphicon or glyphicon and glyphicon-cutlery will give us kind of a fork and a knife and that will be our menu-->
+              <br class="hidden-xs" />
+              <!--this class hidden-XS means I want this break between icon and word menu to go away when the screen size is extra small. -->
+              Chicken</a>
+          </li>
+          <li class="visible-xs">
+            <a>
+              <span class="glyphicon glyphicon-star"></span>
+              <!--different glyph icons are in the documentation-->
+              <br class="hidden-xs" />
+              Beef</a>
+          </li>
+          <li class="visible-xs">
+            <a>
+              <span class="glyphicon glyphicon-leaf"></span
+              ><br class="hidden-xs" />
+              Sushi</a>
+          </li>
+        </ul>
+        <!-- #nav-list -->
+      </div>
+      <!-- .collapse .navbar-collapse -->
+      <!--NOW when you click on navbar, items will come out. ALL DONE BY BOOTSTRAP-->
+      </div>
+
+    </nav>
+  </header>
+
+  <div id="main-content" class="container">
+    <h2 id="main-content-title" class="text-center">Our Menu</h2>
+    <div id="menu-tiles">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="chicken-tile">
+          <span>Chicken</span>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        </div>
+        
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="beef-tile">
+          <span>Beef</span>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="sushi-tile">
+          <span>Sushi</span>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        </div>
+      </div>
+      
+
+    </div>
+  </div><!-- End of #main-content -->
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+

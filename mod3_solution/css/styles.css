@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #e5a3ad;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #a3056fd3;
+  border-radius: 0; /**to get rid of rounder edges**/
+  border: 0; /**we want it to just be colored without a white border**/
+}
+
+.navbar-brand {
+  padding-top: 10px; /**first push the navbar down a bit by giving it a padding**/
+}
+
+/* Title */
+.navbar-brand h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 0.75; /**to tighten up the whole thing**/
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none; /**the link line when you hover over it, just want it to be clickable but not look like a regular link*/
+}
+
+#main-content-title {
+  font-weight: bold;
+}
+
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+  height: 1000px;
+  background-color: rgb(163, 146, 146);
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  top: 20px;
+}
+
+#chicken-tile span,
+#beef-tile span,
+#sushi-tile span {
+  position: absolute;
+  font-size: 1.2em;
+  text-align: center;
+  right: 0;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#chicken-tile p,
+#beef-tile p,
+#sushi-tile p {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list {
+  color: #0f0b0d;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#collapsable-nav a {
+  /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+#collapsable-nav a span {
+  /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+}
